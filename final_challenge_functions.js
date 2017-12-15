@@ -1,4 +1,4 @@
-function checkPrime(number); {
+function checkPrime(n); {
 
 }
 
