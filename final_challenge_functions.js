@@ -7,7 +7,7 @@ function timesTable(number); {
     for(i = 1; i <= number; i++){
         document.write("<tr>");
         for(j = 1; j <= number; j++){
-            document.write("<td>"; i * j;"</td>");
+            document.write("<td>"; i*j;"</td>");
         }
         document.write("</tr>");
     }
