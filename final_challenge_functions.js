@@ -1,7 +1,7 @@
-function timesTable(number); {
-    var
+function checkPrime(number); {
+
 }
 
-function factorTree(n); {
+function timesTable(n); {
 
 }
