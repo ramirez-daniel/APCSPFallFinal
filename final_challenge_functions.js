@@ -1,9 +1,11 @@
 function checkPrime(number); {
-    for(i = 0; i < number; i++);
-        if((number)%2 == 0){
-            return "NOT PRIME";
-        }
-} return "PRIME";
+    for(i = 2; i <= (number)/2; i++); {
+        if(number % i == 0) {
+           return "NOT PRIME";
+           }
+     }
+    return "PRIME";
+}
 
 function timesTable(n); {
     document.write("<table>");
